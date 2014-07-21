@@ -122,7 +122,7 @@
 
 -(void)alertView:(MLChooseOptionAlert *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
 {
-    NSLog(@"index: %li", buttonIndex);
+    NSLog(@"index: %li", (long)buttonIndex);
     NSLog(@"cancelButtonIndex: %d", (alertView.cancelButtonIndex == buttonIndex));
 }
 
